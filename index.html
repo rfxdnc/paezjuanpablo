@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paez Juan Pablo | Talento Tech Ecommerce</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ==================== HEADER ==================== -->
+    <header class="header">
+        <a href="index.html">
+            <img src="img/logo1.png" class="logo" alt="Logo Talento Tech" width="40px" height="40px">
+        </a>
+        <div>
+            <ul id="navbar" class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/tienda.html">Tienda</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
+                <li>
+                    <a href="pages/carrito.html">
+                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <a href="#" id="close" class="close">
+                    <i class="far fa-times" aria-hidden="true"></i>
+                </a>
+            </ul>
+        </div>
+        <div class="mobile">
+            <a href="pages/carrito.html">
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            </a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ==================== HERO ==================== -->
+        <section class="hero">
+            <div class="hero-content">
+                <h4>¡Hacé el cambio que necesitás!</h4>
+                <h2>Súper ofertas</h2>
+                <h1>En todos los productos</h1>
+                <p>¡Aprovechá cupones y descuentos de hasta el 70%!</p>
+                <button>Comprar</button>
+            </div>
+        </section>
+
+        <!-- ==================== PRODUCTOS ==================== -->
+        <section class="section-productos section-p1">
+            <h2>Electrónica y Más</h2>
+            <p>Ofertas que no te podés perder</p>
+            <div class="productos-container">
+
+                <div class="producto">
+                    <img src="img/productos/celular-Iphone17orange.jpg" alt="Celular">
+                    <div class="producto-descripcion">
+                        <span>Celulares</span>
+                        <h5>Iphone último modelo</h5>
+                        <h4>$2999.99</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Iphone último modelo" data-precio="2999.99"
+                        data-imagen="../img/productos/celular-Iphone17orange.jpg">
+                        <i class="fal fa-shopping-cart"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/productos/auriculares-HyperXCloudAlphaWireless.jpg" alt="Auriculares">
+                    <div class="producto-descripcion">
+                        <span>Audio</span>
+                        <h5>Auriculares inalámbricos</h5>
+                        <h4>$199.99</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Auriculares inalámbricos" data-precio="199.99"
+                        data-imagen="../img/productos/auriculares-HyperXCloudAlphaWireless.jpg">
+                        <i class="fal fa-shopping-cart"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/productos/parlante-JBLBoombox4Blue.jpg" alt="Parlante">
+                    <div class="producto-descripcion">
+                        <span>Audio</span>
+                        <h5>Parlante JBL Boombox 4 Blue</h5>
+                        <h4>$99.99</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Parlante JBL Boombox 4 Blue" data-precio="99.99"
+                        data-imagen="../img/productos/parlante-JBLBoombox4Blue.jpg">
+                        <i class="fal fa-shopping-cart"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/productos/reloj-AppleWatchUltra.jpg" alt="Campera">
+                    <div class="producto-descripcion">
+                        <span>Relojes</span>
+                        <h5>Reloj Apple</h5>
+                        <h4>$129.99</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Reloj Apple" data-precio="129.99"
+                        data-imagen="../img/productos/reloj-AppleWatchUltra.jpg">
+                        <i class="fal fa-shopping-cart"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/productos/tablet-HuaweiMatePad.jpg" alt="Tablet">
+                    <div class="producto-descripcion">
+                        <span>Tablets</span>
+                        <h5>Tablet Huawei Mate Pad 6</h5>
+                        <h4>$111.99</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Tablet 10 Full HD" data-precio="111.99"
+                        data-imagen="../img/productos/tablet.jpg">
+                        <i class="fal fa-shopping-cart"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/productos/playStation5SonySlim1TB.jpg" alt="Accesorios">
+                    <div class="producto-descripcion">
+                        <span>Gaming</span>
+                        <h5>PlayStation 5 Sony Slim 1TB</h5>
+                        <h4>$1499.99</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Kit accesorios gaming" data-precio="1499.99"
+                        data-imagen="../img/productos/playStation5SonySlim1TB.jpg">
+                        <i class="fal fa-shopping-cart"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/productos/proyector-ViewSonic.jpg" alt="Proyector">
+                    <div class="producto-descripcion">
+                        <span>Video</span>
+                        <h5>Proyector ViewSonic</h5>
+                        <h4>$599.99</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Proyector ViewSonic" data-precio="199.99"
+                        data-imagen="../img/productos/proyector-ViewSonic.jpg">
+                        <i class="fal fa-shopping-cart"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/productos/television-onyBravia3.jpg" alt="Televisor">
+                    <div class="producto-descripcion">
+                        <span>TV</span>
+                        <h5>Smart TV 55" 4K Bravia</h5>
+                        <h4>$1199.99</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Smart TV 55 4K Bravia" data-precio="1199.99"
+                        data-imagen="../img/productos/television-onyBravia3.jpg">
+                        <i class="fal fa-shopping-cart"></i> Agregar
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ==================== BANNER ==================== -->
+        <section class="banner section-m1">
+            <h4>Ofertas que no te podés perder</h4>
+            <h2>Hasta <span>70% OFF</span> - Electrónica y Más</h2>
+            <button>Ver más</button>
+        </section>
+
+        <!-- ==================== RESEÑAS ==================== -->
+        <section class="section-resenias section-p1 section-m1">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <p>Opiniones reales de compradores verificados</p>
+            <div class="resenias-container">
+
+                <div class="resenia-card">
+                    <div class="resenia-estrellas">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Excelente calidad y llegó en tiempo récord. El producto superó mis expectativas. ¡Volvería a
+                        comprar sin dudarlo!"</p>
+                    <div class="resenia-autor">
+                        <img src="img/people/1.png" alt="Jorge Gutierrez.">
+                        <div>
+                            <h5>Jorge Gutierrez.</h5><span>Buenos Aires</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resenia-card">
+                    <div class="resenia-estrellas">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>"Muy buena atención al cliente y productos de primera. El proceso de compra fue muy sencillo e
+                        intuitivo."</p>
+                    <div class="resenia-autor">
+                        <img src="img/people/3.png" alt="Clara Dominguez">
+                        <div>
+                            <h5>Clara Dominguez</h5><span>Buenos Aires</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resenia-card">
+                    <div class="resenia-estrellas">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Los precios son increíbles y la variedad de productos es enorme. Encontré todo lo que buscaba en
+                        un solo lugar."</p>
+                    <div class="resenia-autor">
+                        <img src="img/people/2.png" alt="Carlos Montiel.">
+                        <div>
+                            <h5>Carlos Montiel.</h5><span>Buenos Aires</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ==================== NEWSLETTER ==================== -->
+        <section class="newsletter section-p1 section-m1">
+            <div class="newstext">
+                <h4>Suscribite al Newsletter</h4>
+                <p>Recibí novedades de nuestra tienda y <span>ofertas exclusivas</span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Tu correo electrónico">
+                <button>Suscribirme</button>
+            </div>
+        </section>
+
+        <!-- TOAST -->
+        <div id="toast" class="toast-custom">
+            <span id="toastMensaje"></span>
+            <button id="btnCerrarToast">✕</button>
+        </div>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="section-p1">
+        <div class="col">
+            <h4>Contacto</h4>
+            <p><strong>Dirección:</strong> Morelos 663, Buenos Aires</p>
+            <p><strong>Teléfono:</strong> +54 11 6886 9184</p>
+            <p><strong>Horario:</strong> 10:00 - 19:00, Lunes a Viernes</p>
+            <div class="follow">
+                <h4>Seguinos</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i><i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Mi Cuenta</h4>
+            <a href="#">Iniciar Sesión</a>
+            <a href="#">Ver Carrito</a>
+            <a href="#">Mis Favoritos</a>
+            <a href="#">Seguimiento de Pedido</a>
+            <a href="#">Ayuda</a>
+        </div>
+        <div class="col install">
+            <h4>Descargá la App</h4>
+            <p>Desde App Store o Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="App Store">
+                <img src="img/pay/play.jpg" alt="Google Play">
+            </div>
+            <p>Pasarelas de pago seguras</p>
+            <img src="img/pay/pay.png" alt="Métodos de Pago">
+        </div>
+        <div class="copyright">
+            <p>© 2026, Paez Juan Pablo | Front end | Talento Tech - Ecommerce</p>
+        </div>
+    </footer>
+
+    <script src="script/script.js"></script>
+    <script src="script/index.js"></script>
+    <script src="script/toast.js"></script>
+
+</body>
+
+</html>
